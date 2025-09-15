@@ -1,0 +1,21 @@
+{
+  "name": "orm-flooring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run db\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "db": "mongod --dbpath ./data/db",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
