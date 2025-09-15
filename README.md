@@ -65,7 +65,7 @@ npm install
 
 3. Create a `.env` file with your MongoDB URI:
 ```
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/ormflooring
+MONGO_URI=your-secure-uri-here (stored in .env file)
 PORT=5000
 ```
 
@@ -147,9 +147,10 @@ cd ORMFlooring/backend
 npm install
 ```
 - Crea un archivo .env con tu URI de MongoDB:
-MONGO_URI=mongodb+srv://usuario:clave@cluster.mongodb.net/ormflooring
+```
+MONGO_URI=your-secure-uri-here (stored in .env file)
 PORT=5000
-
+```
 
 iniciar servidor: 
 
