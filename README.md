@@ -104,8 +104,8 @@ Este repositorio contiene el backend para la plataforma de gestión de clientes,
 backend/
 ├── models/
 │   ├── Client.js       # Clientes activos
-│   └── Contact.js      # formulario lead de la web
-├── server.js           # Acchivo main del backend
+│   └── Contact.js      # Leads del formulario web
+├── server.js           # Archivo main del backend
 ├── .env                # variables de entorno (no incluidas en el repositorio)
 ├── .gitignore          # Ignores node_modules, .env, etc.
 ```
